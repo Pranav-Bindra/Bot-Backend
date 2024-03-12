@@ -1,6 +1,7 @@
 const express = require('express');
 const OpenAI = require('openai');
 require('dotenv').config();
+const cors = require('cors');
 
 const openai = new OpenAI({ apiKey: process.env.API_KEY });
 
@@ -9,6 +10,7 @@ const port = 3000;
 
 // Middleware to parse JSON bodies
 app.use(express.json());
+app.use(cors());
 
 app.post('/chat', async (req, res) => {
 	try {
