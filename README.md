@@ -38,10 +38,6 @@ Let's get started.
 5. **Generate Completions**:
     - Use the `getModelCompletion` function with your fine-tuned model ID to generate completions.
 
-### Video Walkthrough:
-
-https://www.loom.com/embed/2a08588964154ff48e00dc942100c375?sid=29572858-2a5a-40c0-97d2-90391dc9db08
-
 ### Use Cases
 
 -   Building a chatbot for specific domains like career advice.
